@@ -17,4 +17,22 @@ console.log('Hola Mundo')
 //var miPrimeraVariable = 'lala'
 
 let miPrimeraVariable = 'Mi primera variable!'
-console.log(miPrimeraVariable)
+console.log(miPrimeraVariable);
+
+miPrimeraVariable = 'Esto ha cambiado'
+console.log(miPrimeraVariable);
+
+let miBoolean = true
+let miOtroBoolean = false
+
+let miNumero = 0 // Nombres de variables acorde a lo que se escribe. Buena Practica
+let miNumero2 = 12
+let miNumero3 = -258
+
+console.log(miNumero, miNumero2, miNumero3, miBoolean, miOtroBoolean)
+
+let undef
+console.log(undef)
+
+let nulo = null
+console.log(nulo)

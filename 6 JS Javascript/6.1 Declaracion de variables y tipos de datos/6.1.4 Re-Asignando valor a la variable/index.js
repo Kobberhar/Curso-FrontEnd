@@ -18,3 +18,8 @@ console.log('Hola Mundo')
 
 let miPrimeraVariable = 'Mi primera variable!'
 console.log(miPrimeraVariable)
+
+miPrimeraVariable = 'Esto ha cambiado'
+console.log(miPrimeraVariable)
+
+//MUTABILIDAD
