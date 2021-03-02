@@ -1,0 +1,22 @@
+
+body{
+    width: 200px;
+}
+
+.flex{    
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+}
+
+.primero{
+    order: 0;
+}
+
+.segundo{
+    order: 1;
+}
+
+.tercero{
+    order: -1;
+}

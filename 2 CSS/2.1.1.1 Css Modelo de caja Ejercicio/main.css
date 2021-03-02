@@ -1,0 +1,28 @@
+body{
+    background-color:#eee;    
+}
+
+.caja{
+    margin: 8px;
+    padding: 8px;
+    border-style:hidden outset outset inset;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.footer{
+    padding: 10px;
+    border-top: solid 1px;
+}
+
+button{
+    border-radius: 0%;
+    border: none;
+    padding: 8px;
+    background-color: #aaa;
+    color: white;
+}
+.boton{
+    background-color: #09e;
+}

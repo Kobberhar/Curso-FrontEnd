@@ -1,0 +1,11 @@
+body{
+    background-color:#eee;    
+}
+
+p{
+    max-width: 350px;
+    background-color: #F00;
+    margin: auto;
+    position:fixed;
+    right: 15px;
+}

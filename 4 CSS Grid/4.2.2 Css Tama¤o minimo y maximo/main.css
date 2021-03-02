@@ -1,0 +1,13 @@
+body{
+    background-color:#eee;    
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: repeat(2,50px);
+    grid-template-columns: minmax(auto,50%) 1fr 3em;
+}
+
+.element{
+    background-color: red;
+}

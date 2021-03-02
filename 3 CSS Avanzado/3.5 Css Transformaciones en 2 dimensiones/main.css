@@ -1,0 +1,21 @@
+body{
+    background-color:#eee;    
+}
+
+.box{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;    
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+    /*transform: rotate(20deg);*/
+    /*transform: translate(50px, 10px);*/
+    /*transform: scale(2,2);*/
+    transform: skew(10deg, 1deg);
+}
+
+.box:hover{
+    transform: scale(1.05,1.05);
+}
