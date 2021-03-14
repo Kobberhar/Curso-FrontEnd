@@ -11,8 +11,16 @@ window.onload = () => {
         const list = document.getElementById('todo-list') //Variable list aloja elemento id 'todo-list'
         const todosTemplate = todos.map(t => '<li>' + t + '</li>') // .map Recorre el arreglo 'todos' y agrega <li> </li> a cada elemento
         list.innerHTML = todosTemplate.join('') // Concatena todos los elementos con el simbolo que se le asigne.
+
+        const elementos = document.querySelectorAll('#todo-list li')
+        elementos.forEach((elemento, i) => {
+            
+            elemento.addEventListener('click',() => {
+                elemento.parentNode.removeChild(elemento)
+                todos.splice(i,1)
+                console.log(elemento, i)
+            })
+        })
     }
 }
 
-//const arr = [1,2,3,4]
-//arr.splice(2,1)        //splice (indice, cantidad de valores a eliminar) 
